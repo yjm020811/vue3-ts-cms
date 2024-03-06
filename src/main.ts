@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
+// 样式重置
 import 'normalize.css'
 import './assets/css/index.less'
+
 import App from './App.vue'
 import router from './router'
 import pinia from './store'
@@ -29,7 +31,6 @@ import ElementPlus from 'element-plus'
 // app.component(ElButton.name, ElButton)
 
 // 3.图标的全局注册
-
 
 const app = createApp(App)
 // 使用图标

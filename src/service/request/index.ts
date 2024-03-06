@@ -15,6 +15,9 @@ import type { HYRequestConfig } from './type'
  */
 
 class HYRequest {
+  static get(arg0: { url: string }) {
+    throw new Error('Method not implemented.')
+  }
   instance: AxiosInstance
 
   // request实例 => axios的实例
